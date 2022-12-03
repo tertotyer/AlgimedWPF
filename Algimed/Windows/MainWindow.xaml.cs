@@ -34,12 +34,12 @@ namespace Algimed
         private void LoadFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Text files |*.csv";
+            openFileDialog.Filter = "Text files |*.csv;*.xlsx";
             bool? response = openFileDialog.ShowDialog();
 
             if (response == true)
             {
-                var listResults = FileHelperService.ReadCSV(openFileDialog.FileName);
+                var listResults = FileHelperService.ReadFile(openFileDialog.FileName);
                 result.DataContext = listResults;
             }
         }

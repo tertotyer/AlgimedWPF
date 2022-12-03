@@ -15,8 +15,8 @@
         <DataGrid Background="#fffde7" Grid.Column="0" Name="result" CanUserResizeColumns="True" 
                   CanUserAddRows="False" CanUserSortColumns="True" 
                   IsReadOnly="True" ItemsSource="{Binding}" />
-        <Button Grid.Column="1" Content="Load CSV File" HorizontalAlignment="Center" 
-                Margin="0,50,0,0" VerticalAlignment="Top"
+        <Button Grid.Column="1" Content="Load File" HorizontalAlignment="Center" 
+                Margin="0,150,0,0" VerticalAlignment="Top"
                 Click="LoadFile_Click"/>
         <Grid Grid.Column="1">
             <Grid.ColumnDefinitions>
