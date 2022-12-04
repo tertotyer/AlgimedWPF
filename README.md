@@ -1,7 +1,18 @@
 # Тестовое задание для Algimed
-Выполнил: Клишевич Артем<br>
+Выполнил: Клишевич Артем</br>
 
-<hr>
+</hr>
+<h2>Стек технологий</h2>
+<ul>
+<li>C#</li>
+<li>WPF</li>
+<li>SQL lite</li>
+<li>Entity Framework</li>
+<li>Material Design In XAML</li>
+<li>EPPlus для работы с .xlsx файлами</li>
+<li>LumenWorks для работы с .csv файлами</li>
+</ul>
+
 <h2>Документация и навигация для проверяющего</h2>
 Инсталляционный пакет <b>Algimed.msi</b> находится в директории <b>Algimed.Setup/version</b>.<br><br>
 
